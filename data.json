@@ -1,0 +1,116 @@
+[
+  {
+    Name: "John Frusciante",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Reservoir Dogs",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Foo Fighters",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Pearl Jam",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Sublime",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Inglourious Basterds",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Incubus",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Audioslave",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Jackie Brown",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Nirvana",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "The Big Lebowski",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Goodfellas",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Guns N' Roses",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Death Proof",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "The Offspring",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Django Unchained",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Rage Against The Machine",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Snatch",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Trainspotting",
+    Type: "movie",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  },
+  {
+    Name: "Weezer",
+    Type: "music",
+    Url: "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+  }
+]
+
+"
+  Use this data to be build and app where you have all the
+items in an array in a 3 column layout with a search box
+that i can use to filter the items in this array.
+
+  Each of the cards will have a delete button that i can use to
+remove it from the array
+
+  When searching, if the item i search for does not match the name for any
+of the items, a text should show to tell me that what i searched for does not exists.
+
+The cards should wait 5 seconds before they show.
+"
