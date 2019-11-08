@@ -3,6 +3,8 @@
         <input type="text" placeholder="Search" />
         <div class="image__wrapper" v-show="duration">
             <div class="images" v-for="(item, index) in myCollection" :key="index">
+                <h2>{{item.Name}}</h2>
+                <h4><i>{{item.Type}}</i></h4>
                 <img :src="item.Url" class="img"/>
                 <br/>
                 <button class="button" @click="deleted(index)">Delete</button>
@@ -127,6 +129,8 @@
             duration: function(){
                 let v = this;
                 setTimeout(function(){
+                    v.item.Name;
+                    v.item.Type;
                     v.item.Url;
                 }, 5000)
             }
@@ -140,11 +144,11 @@
 .image__wrapper {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
 }
 .img {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
 }
 .button {
     margin-bottom: 20px;
@@ -161,5 +165,6 @@ input{
     height: 40px;
     border: 2px solid black;
     border-radius: 30px;
+    padding-left: 20px;
 }
 </style>
